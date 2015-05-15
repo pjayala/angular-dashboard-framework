@@ -36,7 +36,7 @@
  */
 
 angular.module('adf')
-  .directive('adfDashboard', function ($rootScope, $log, $modal, dashboard, adfTemplatePath) {
+  .directive('adfDashboard', function ($rootScope, $log, $modal, dashboard, dashboardApi, adfTemplatePath) {
     'use strict';
 
     function copyWidgets(source, target) {
